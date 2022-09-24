@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(216, 12%, 8%);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.text {
+  color: hsl(0, 0%, 100%);
+  padding: 0.5rem 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  font-family: "Overpass";
+}
+
+.number {
+  font-weight: 400;
+  font-size: 16px;
+  color: hsl(216, 12%, 54%);
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.card-one {
+  height: 415px;
+  background: radial-gradient(
+    circle at top,
+    rgba(37, 45, 55, 1) 20%,
+    rgba(18, 20, 23, 1) 100%
+  );
+  width: 400px;
+  border-radius: 30px;
+}
+
+.starbox {
+  height: 50px;
+  width: 50px;
+  background-color: hsl(213, 19%, 18%);
+  border-radius: 50%;
+  margin: 1.5rem 1.7rem;
+  padding: 17px;
+}
+.btn-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-family: "Overpass";
+}
+
+.number {
+  height: 50px;
+  width: 50px;
+  background-color: hsl(213, 19%, 18%);
+  border-radius: 50%;
+  margin-top: 1.5rem;
+  padding: 20px;
+  padding-top: 1rem;
+  border: none;
+}
+
+.btn-sub {
+  width: 87%;
+  height: 2.5rem;
+  margin-left: 1.7rem;
+  border-radius: 4rem;
+  margin-top: 2rem;
+  background-color: hsl(25, 97%, 53%);
+  border: none;
+  color: white;
+  font-size: 14px;
+  letter-spacing: 3px;
+  font-weight: 600;
+}
+
+.number:hover {
+  background-color: hsl(217, 12%, 63%);
+  cursor: pointer;
+  color: #fff;
+}
+
+.number:active{
+  background-color: hsl(25, 97%, 53%);
+  color: #fff;
+}
+
+.btn-sub:hover {
+  background-color: white;
+  color: hsl(25, 97%, 53%);
+  cursor: pointer;
+}
+
+.card-two {
+  height: 415px;
+  background: radial-gradient(
+    circle at top,
+    rgba(37, 45, 55, 1) 20%,
+    rgba(18, 20, 23, 1) 100%
+  );
+  width: 400px;
+  border-radius: 30px;
+  font-family: "Overpass";
+}
+
+.mobile {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 3rem;
+  margin-right: 1rem;
+}
+
+.rating-text {
+  background-color: #fff;
+  height: 2rem;
+  width: 45%;
+  margin-left: 7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 18px;
+  background-color: hsl(213, 19%, 18%);
+  color: hsl(25, 97%, 53%);
+  margin-top: 2rem;
+}
+
+.greet {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.end-para {
+ width: 90%;
+ text-align: center;
+margin-left: 1rem;
+margin-top: 1rem;
+}
+
+.hide {
+  display: none;
+}
+span {
+  margin: 0 5px 0 5px;
+}
+
+.attribution {
+  margin-top: 8rem;
+  color: #fff;
+}
